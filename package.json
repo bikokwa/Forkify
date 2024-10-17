@@ -1,7 +1,7 @@
 {
   "name": "forkify",
   "version": "1.0.0",
-  "description": "",
+  "description": "Recipe application",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
@@ -20,5 +20,9 @@
     "@parcel/transformer-sass": "^2.12.0",
     "parcel": "^2.12.0",
     "sass": "^1.79.5"
+  },
+  "dependencies": {
+    "core-js": "^3.38.1",
+    "regenerator-runtime": "^0.14.1"
   }
 }
